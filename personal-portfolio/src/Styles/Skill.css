@@ -1,0 +1,35 @@
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 30vh;
+    background-color: #f0f0f0;
+}
+.logo-box{
+    width: 100vw;
+    height: 60vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    width: 50vw;
+    height: 10vh;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-box h1 {
+    margin: 10px 0;
+    font-size: 1.8em;
+    text-decoration: underline;
+  }
